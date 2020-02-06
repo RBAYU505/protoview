@@ -1,3 +1,4 @@
+$(document).ready(function() {
  /*
         ################
         Add navbar background color when scrolled
@@ -21,3 +22,4 @@
         }
       });
       // ############
+    });
