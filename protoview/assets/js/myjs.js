@@ -5,18 +5,18 @@ $(document).ready(function() {
         */
        $(window).scroll(function() {
         if ($(window).scrollTop() > 56) {
-          $(".navbar").addClass("bg-primary");
+          $(".navbar").addClass("bg-bpd");
         } else {
-          $(".navbar").removeClass("bg-primary");
+          $(".navbar").removeClass("bg-bpd");
         }
       });
       // If Mobile, add background color when toggler is clicked
       $(".navbar-toggler").click(function() {
         if (!$(".navbar-collapse").hasClass("show")) {
-          $(".navbar").addClass("bg-primary");
+          $(".navbar").addClass("bg-bpd");
         } else {
           if ($(window).scrollTop() < 56) {
-            $(".navbar").removeClass("bg-primary");
+            $(".navbar").removeClass("bg-bpd");
           } else {
           }
         }
