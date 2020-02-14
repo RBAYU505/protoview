@@ -10,6 +10,7 @@ $(document).ready(function() {
           $(".navbar").removeClass("bg-bpd");
         }
       });
+
       /* If Mobile, add background color when toggler is clicked */
       $(".navbar-toggler").click(function() {
         if (!$(".navbar-collapse").hasClass("show")) {
