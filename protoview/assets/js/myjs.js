@@ -24,7 +24,7 @@ $(document).ready(function() {
       // #####
 
       // Card Slider Section
-      $("#myCarousel").on("slide.bs.carousel", function(e) {
+      $("#carousel-2").on("slide.bs.carousel", function(e) {
         var $e = $(e.relatedTarget);
         var idx = $e.index();
         var itemsPerSlide = 4;
