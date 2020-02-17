@@ -23,7 +23,7 @@
     height: 0;
     margin: 0.5rem 0;
     overflow: hidden;
-    border: 1px solid #283593;
+    border: 0.05rem solid #3644b3;
   }
 
 /* Navbar Text Color */
@@ -50,7 +50,7 @@
           margin-bottom: 0;
       }
       ul li a:hover {
-      color:rgb(27, 0, 78) !important;
+      color:#001370 !important;
       }
       .dropdown-menu a{
         color: whitesmoke !important;
@@ -65,6 +65,12 @@
           }
           .dropdown-menu a{
             color: #ccc !important;
+          }
+          .drop-div {
+            height: 0;
+            margin: 0.5rem 0;
+            overflow: hidden;
+            border: 1px solid #283593;
           }
         }
       
