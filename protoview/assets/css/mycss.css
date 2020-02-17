@@ -19,8 +19,56 @@
     background-color: #eeeeee !important;
   }
 
-/* #### Menu Wizzard Section #### */
+  .drop-div {
+    height: 0;
+    margin: 0.5rem 0;
+    overflow: hidden;
+    border: 1px solid #283593;
+  }
 
+/* Navbar Text Color */
+  .navbar-dark .navbar-nav .nav-link {
+    color: whitesmoke;
+    }
+    .navbar-dark .navbar-nav .nav-link:hover {
+    color: whitesmoke;
+    }
+
+/* Dropdown Hover Set */
+@media screen and (min-width: 768px){
+    .dropdown:hover .dropdown-menu, .btn-group:hover .dropdown-menu{
+          display: block;
+          background-color: #283593 !important;
+      }
+      .dropdown-menu{
+          margin-top: 0;
+      }
+      .dropdown-toggle{
+          margin-bottom: 0;
+      }
+      .navbar .dropdown-toggle, .nav-tabs .dropdown-toggle{
+          margin-bottom: 0;
+      }
+      ul li a:hover {
+      color:rgb(27, 0, 78) !important;
+      }
+      .dropdown-menu a{
+        color: whitesmoke !important;
+      }
+    }
+
+    @media screen and (max-width: 767px){
+        .dropdown-menu{
+              background-color: #001370 !important;
+              /* #001064
+              #021885 */
+          }
+          .dropdown-menu a{
+            color: #ccc !important;
+          }
+        }
+      
+/* #### Menu Wizzard Section #### */
 .hk-features {
  /* background:#2a2e31; */
     padding:10px 0px;

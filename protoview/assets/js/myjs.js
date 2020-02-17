@@ -24,6 +24,15 @@ $(document).ready(function() {
       });
       // #####
 
+      // Dropdown Menu Hover
+      $(".dropdown, .btn-group").hover(function(){
+        var dropdownMenu = $(this).children(".dropdown-menu");
+          if(dropdownMenu.is(":visible")){
+              dropdownMenu.parent().toggleClass("open");
+          }
+      });
+      // #####
+
       // Card Slider Section
       $("#carousel-2").on("slide.bs.carousel", function(e) {
         var $e = $(e.relatedTarget);
