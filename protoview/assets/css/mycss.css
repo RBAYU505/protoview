@@ -9,10 +9,14 @@
     background-color: #283593 !important;
   }
 
-.bg-abu {
+  .bg-abu {
     background-color: #eeeeee !important;
   }
-  
+
+  .bg-abugelap {
+    background-color: #90a4ae !important;
+  }
+
   a.bg-abu:hover, a.bg-abu:focus,
   button.bg-abu:hover,
   button.bg-abu:focus {
@@ -23,8 +27,12 @@
     height: 0;
     margin: 0.5rem 0;
     overflow: hidden;
-    border: 0.05rem solid #3644b3;
+    border: 0.05rem solid #3644b3 !important;
   }
+
+  th {
+    color: #001370 !important;
+  } 
 
 /* Navbar Text Color */
   .navbar-dark .navbar-nav .nav-link {
