@@ -38,6 +38,20 @@
     border-color: #eeeeee !important;
   }
 
+  /* Carousel BIG Sets */ 
+
+  #carousel-1 .carousel-inner .carousel-item {
+    height: 520px;
+  }
+  
+  #carousel-1 .carousel-inner .carousel-item img {
+      position: absolute;
+      object-fit:cover;
+      top: 0;
+      left: 0;
+      min-height: 520px;
+  }
+
 /* Button BPD Custom */
 .btn-bpd {
   color: #fff;
