@@ -338,6 +338,11 @@
    }
 }
 
+/*ICON Playstore */
+.ic-wrap {
+    padding:0px;
+}
+
 /* Card Slider Section */
 @media (min-width: 768px) {
     /* show 4 items */
