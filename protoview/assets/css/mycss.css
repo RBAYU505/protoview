@@ -38,6 +38,7 @@
     border-color: #eeeeee !important;
   }
 
+ 
   /* Carousel BIG Sets */ 
   @media screen and (min-width: 768px){
 
@@ -343,7 +344,7 @@
     padding:0px;
 }
 
-/* Card Slider Section */
+/* Card Slider Bootstrap Section */
 @media (min-width: 768px) {
     /* show 4 items */
     #carousel-2 .carousel-inner .active,
