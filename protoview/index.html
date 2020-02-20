@@ -117,7 +117,7 @@
   
   
       <!-- Carousel -->
-      <div id="carousel-1" class="carousel slide carousel-fade" data-ride="carousel" data-interval="4000">
+      <div id="carousel-1" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3000">
           <ol class="carousel-indicators">
               <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
               <li data-target="#carousel-1" data-slide-to="1"></li>
@@ -300,12 +300,12 @@
         </div>
     </div> -->
 
-    <!-- Column Sample -->
+    <!-- Menu Column -->
     <div class="container-fluid">
       <div class="row">
         <div class="col-6 col-md-2  border border-abu" onclick="location.href='#';">
           <div class="container kotak text-center">
-            <i class="fas fa-wallet"></i>
+            <i class="fa-fw fas fa-wallet"></i>
             <h3>buka tabungan</h3>
           </div>
         </div>
@@ -315,7 +315,7 @@
             <h3>ajukan kredit</h3>
           </div>
         </div>
-        <div class="col-6 col-md-2  border border-abu" onclick="location.href='#';">
+        <div class="col-6 col-md-2  border border-abu" data-toggle="modal" data-target="#exampleModal">
           <div class="container kotak text-center">
             <i class="fas fa-balance-scale"></i>
             <h3>simulasi kredit</h3>
@@ -337,6 +337,37 @@
           <div class="container kotak text-center">
             <i class="fas fa-map-marked-alt"></i>
             <h3>cari lokasi</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MoDals Simulasi Kredit -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Simulasi Perhitungan Kredit</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Jumlah Pinjaman</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Masukkan jumlah pinjaman">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Jangka Waktu</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Masukkan jangka waktu dalam bulan">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Suku Bunga</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Masukkan suku bunga dalam %">
+              </div>
+                <button type="button" class="btn btn-bpd">Hitung</button>
+            </form>
           </div>
         </div>
       </div>
@@ -370,7 +401,7 @@
               <div class="col-md-6">
                 <div class="container text-center mt-3 mb-3">
                   <div class="container pt-5">
-                    <h3>Transaksi Mudah dengan M-Banking BPD</h3>
+                    <h3>Transaksi Mudah dengan M-Banking BPD DIY</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque veniam laudantium hic vitae tenetur! Amet, saepe? Ipsam, illum expedita</p>
                     <a id="link-1" href="#"><img src="assets/img/playstore.png" class="img-fluid" alt="Responsive image"></a>
                   </div>
@@ -393,7 +424,7 @@
   </div> -->
 
    <!-- OWL Carousel -->
-   <hr class="p-0 m-0 b-0">
+   <!-- <hr class="p-0 m-0 b-0">
    <div class="container-fluid">
     <h4 class="text-center pt-2">PROMO</h4>
     <div class="owl-carousel owl-theme pt-2">
@@ -402,7 +433,7 @@
           <img class="card-img img-fluid" src="http://placehold.it/800x600/f44242/fff" alt="Card image cap">
           <div class="card-img-overlay">
             <h4 class="card-title">Promo 1</h4>
-            <p class="card-text">This is a longer card with supporting text below</p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
           </div>
         </div>
@@ -412,7 +443,7 @@
           <img class="card-img img-fluid" src="http://placehold.it/800x600/418cf4/fff" alt="Card image cap">
           <div class="card-img-overlay">
             <h4 class="card-title">Promo 2</h4>
-            <p class="card-text">This is a longer card with supporting text below</p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
           </div>
         </div>
@@ -422,7 +453,7 @@
           <img class="card-img img-fluid" src="http://placehold.it/800x600/3ed846/fff" alt="Card image cap">
           <div class="card-img-overlay">
             <h4 class="card-title">Promo 3</h4>
-            <p class="card-text">This is a longer card with supporting text below</p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
           </div>
         </div>
@@ -432,7 +463,7 @@
           <img class="card-img img-fluid" src="http://placehold.it/800x600/42ebf4/fff" alt="Card image cap">
           <div class="card-img-overlay">
             <h4 class="card-title">Promo 4</h4>
-            <p class="card-text">This is a longer card with supporting text below</p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
           </div>
         </div>
@@ -442,7 +473,7 @@
           <img class="card-img img-fluid" src="http://placehold.it/800x600/f49b41/fff" alt="Card image cap">
           <div class="card-img-overlay">
             <h4 class="card-title">Promo 5</h4>
-            <p class="card-text">This is a longer card with supporting text below</p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
           </div>
         </div>
@@ -452,7 +483,7 @@
           <img class="card-img img-fluid" src="http://placehold.it/800x600/f4f141/fff" alt="Card image cap">
           <div class="card-img-overlay">
             <h4 class="card-title">Promo 6</h4>
-            <p class="card-text">This is a longer card with supporting text below</p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
           </div>
         </div>
@@ -462,12 +493,178 @@
           <img class="card-img img-fluid" src="http://placehold.it/800x600/8e41f4/fff" alt="Card image cap">
           <div class="card-img-overlay">
             <h4 class="card-title">Promo 7</h4>
-            <p class="card-text">This is a longer card with supporting text below</p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
           </div>
         </div>
       </div>
     </div>
+    <hr class="p-0 m-0 b-0">
+  </div> -->
+
+  <div class="container-fluid">
+    <hr class="p-0 m-0 b-0">
+  </div>
+    <!--tabs content -->
+    <section id="tabs" class="project-tabs">
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col-md-12">
+                  <nav>
+                      <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                          <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">PROMO</a>
+                          <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-profile" aria-selected="false">BERITA</a>
+                      </div>
+                  </nav>
+                  <div class="tab-content" id="nav-tabContent">
+                      <div class="tab-pane show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <!-- Carousel Berita -->
+                            <div class="owl-carousel owl-theme pt-2" id="owl-carousel1">
+                              <div class="item">
+                                <div class="card text-white">
+                                  <img class="card-img img-fluid" src="http://placehold.it/800x600/f44242/fff" alt="Card image cap">
+                                  <div class="card-img-overlay">
+                                    <h4 class="card-title">Promo 1</h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <div class="card text-white">
+                                  <img class="card-img img-fluid" src="http://placehold.it/800x600/418cf4/fff" alt="Card image cap">
+                                  <div class="card-img-overlay">
+                                    <h4 class="card-title">Promo 2</h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <div class="card text-white">
+                                  <img class="card-img img-fluid" src="http://placehold.it/800x600/3ed846/fff" alt="Card image cap">
+                                  <div class="card-img-overlay">
+                                    <h4 class="card-title">Promo 3</h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <div class="card text-white">
+                                  <img class="card-img img-fluid" src="http://placehold.it/800x600/42ebf4/fff" alt="Card image cap">
+                                  <div class="card-img-overlay">
+                                    <h4 class="card-title">Promo 4</h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <div class="card text-white">
+                                  <img class="card-img img-fluid" src="http://placehold.it/800x600/f49b41/fff" alt="Card image cap">
+                                  <div class="card-img-overlay">
+                                    <h4 class="card-title">Promo 5</h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <div class="card text-white">
+                                  <img class="card-img img-fluid" src="http://placehold.it/800x600/f4f141/fff" alt="Card image cap">
+                                  <div class="card-img-overlay">
+                                    <h4 class="card-title">Promo 6</h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <div class="card text-white">
+                                  <img class="card-img img-fluid" src="http://placehold.it/800x600/8e41f4/fff" alt="Card image cap">
+                                  <div class="card-img-overlay">
+                                    <h4 class="card-title">Promo 7</h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                  
+                      <div class="tab-pane" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                          <!-- OWL Carousel -->
+                              <div class="owl-carousel owl-theme pt-2" id="owl-carousel2">
+                                <div class="item">
+                                  <div class="card text-white">
+                                    <img class="card-img img-fluid" src="http://placehold.it/800x600/418cf4/fff" alt="Card image cap">
+                                    <div class="card-img-overlay">
+                                      <h4 class="card-title">Berita 1</h4>
+                                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="item">
+                                  <div class="card text-white">
+                                    <img class="card-img img-fluid" src="http://placehold.it/800x600/3ed846/fff" alt="Card image cap">
+                                    <div class="card-img-overlay">
+                                      <h4 class="card-title">Berita 2</h4>
+                                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="item">
+                                  <div class="card text-white">
+                                    <img class="card-img img-fluid" src="http://placehold.it/800x600/42ebf4/fff" alt="Card image cap">
+                                    <div class="card-img-overlay">
+                                      <h4 class="card-title">Berita 3</h4>
+                                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="item">
+                                  <div class="card text-white">
+                                    <img class="card-img img-fluid" src="http://placehold.it/800x600/f49b41/fff" alt="Card image cap">
+                                    <div class="card-img-overlay">
+                                      <h4 class="card-title">Berita 4</h4>
+                                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="item">
+                                  <div class="card text-white">
+                                    <img class="card-img img-fluid" src="http://placehold.it/800x600/f4f141/fff" alt="Card image cap">
+                                    <div class="card-img-overlay">
+                                      <h4 class="card-title">Berita 5</h4>
+                                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="item">
+                                  <div class="card text-white">
+                                    <img class="card-img img-fluid" src="http://placehold.it/800x600/8e41f4/fff" alt="Card image cap">
+                                    <div class="card-img-overlay">
+                                      <h4 class="card-title">Berita 6</h4>
+                                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- TAbs -->
+  <div class="container-fluid">
     <hr class="p-0 m-0 b-0">
   </div>
   
