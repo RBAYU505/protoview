@@ -1,7 +1,4 @@
 /* Universal Sets */
-/* body {
-  padding-top: 70px;
-} */
 
 .bg-bpd {
   background-color: #283593 !important;
@@ -441,4 +438,14 @@ footer .input-group-addon {
   border-bottom: 3px solid !important;
   font-size: 20px;
   font-weight: bold;
+}
+
+/* 2 Apr 20 */
+/* Recent News List */
+.media-left > img {
+  height: 70px;
+  width: 90px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 10px;
 }
